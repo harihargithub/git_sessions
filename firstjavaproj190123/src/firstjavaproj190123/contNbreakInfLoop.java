@@ -15,7 +15,7 @@ public class contNbreakInfLoop {
 		//break if number exceeds 20
 		else if (i > 20)
 			break;
-		// print loop varioable
+		// print loop variable
 		else
 			System.out.println(i);
 		}
