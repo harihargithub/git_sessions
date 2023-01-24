@@ -26,6 +26,16 @@ public class seasoncheck {
 		System.out.print(" 11. November ");
 		System.out.print(" 12. December ");
 		
+		/**
+		 * GL SME response 240123 -
+		 * Your logic is good. But you can also try with a better one.
+
+Example.
+
+if 4-6 is summer, when user inputs between 4-6, you can say "It is a summer season"
+if 7-9 is monsoon, when user inputs between 7-9, you can say "It is a monsoon season"
+		 */
+		
 		Scanner scnr = new Scanner(System.in);
 		  int option = scnr.nextInt();
 		     		  
@@ -79,10 +89,10 @@ public class seasoncheck {
 				  System.out.println(" December falls in Winter Season ");
 				  break;
 	}
-			  case 13: {
-				  System.out.println(" Please select a valid number from 1 to 12 ");
-				  break;
-	}
+			  default: {
+					System.out.println(" Please select a valid number from 1 to 12 ");
+					break;
+				}
 			  
 			  }
 		  }
